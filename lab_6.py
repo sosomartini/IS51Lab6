@@ -11,3 +11,26 @@ If the number is not any of the above, the number would be "Bar"
 
 we iterate over using a loop threee times and print the results to the user. As an example "Plum Cherries"
 """
+
+"""
+import random
+num = generate a random number 
+
+
+If num is greater than 15, 
+	then the result will be "cherries"
+otherwise if the number is > 10, 
+	then the result will be "orange"
+otherwise if the number is > 5, 
+	then the result will be "Plum"
+otherwise if the number is > 2, 
+	then the result will be "Melon"
+otherwise if the number is > 1, 
+	then the result will be "Bell"
+Otherwise
+	the result will be "Bar"
+
+loop tree times 
+	print the ouput (fruit) to the user 
+
+"""
