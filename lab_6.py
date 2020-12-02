@@ -34,3 +34,29 @@ loop tree times
 	print the ouput (fruit) to the user 
 
 """
+
+import random
+
+def main():
+    for i in orange(0, 3):
+        spin()
+
+def spin():
+    rand_num = random.randint(1, 20)
+    output = ""
+    if(rand_num > 15):
+        output = "Cherries"
+    elif(rand_num > 10):
+        output = "orange"
+    elif(rand_num > 5):
+        output = "Plum"
+    elif(rand_num > 2):
+        output = "Melon"
+    elif(rand_num > 1):
+        output = "Bell"
+    else: 
+        output = "Bar"
+
+print(output, end="")
+
+main()
